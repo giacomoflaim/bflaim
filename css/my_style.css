@@ -45,10 +45,10 @@ h2{
     padding: 20px;
 }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
     .only-mobile{
         display: none;}
-} */
+} 
 
 @media (max-width: 767.98px) { 
     
