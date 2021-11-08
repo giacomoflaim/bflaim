@@ -1,0 +1,86 @@
+
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 32px;    
+    letter-spacing: 2.5;
+    color: #010101;
+    margin: 32 0 104 24;
+    text-transform: uppercase;  
+    transform: rotate()
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #010101;
+    margin-left:32px;       
+}
+
+.link-landing{
+    text-decoration: none;
+    margin:16 32 24;
+    color:#010101;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;    
+}
+
+.link-landing:hover{
+    color: #86b0c8;
+    transform: translate(+20px,0);
+    transition: transform ease 300ms;
+    font-weight: 500;
+}
+
+.prova{
+    position: absolute;
+    bottom: 20;
+}
+
+.img-car{
+    height: 100vh; 
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .only-mobile{
+        display: none;}
+} 
+
+@media (max-width: 767.98px) { 
+    
+.abs-mobile{
+    
+    z-index: -30;
+}
+    
+    h1{
+        margin: 32 0 24 10;
+    }
+    
+.img-car{
+    width:90vw;
+    height: auto;
+    padding: 5px;
+    }
+    .prova{
+        display: none;
+    }
+    
+    .only-mobile{
+    position: absolute;
+    padding-top:20px;    
+    left: -10;    
+    bottom: 10px;
+    width: 100vh;
+    background: rgba(255,255,255,0.5);
+    z-index: 100;
+    }
+    
+    
+
+}
