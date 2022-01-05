@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  overflow-x: hidden;
+  display: flex;
+}
+
+
+
+section {  
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  font-size: 4ch;
+}
+
+section:nth-child(even) {
+  background-color: rgba(0,0,0,);
+}
+
+
+.img-car{
+    height: 100vh; 
+    padding: 3vh;
+}    
+
+.didascalia{
+   
+    /*border: solid 1px #0f0f0f;
+    border-radius: 20px;*/
+    margin-bottom: 2.5vh;
+    width: 300px;
+}
+
+.title{
+    margin: 0 400 0 200;
+    min-width: 800px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 900;
+    font-size: 80px;    
+    letter-spacing:0;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    padding: 0;    
+}
+
+
+h3{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 900;
+    font-size: 24px;    
+    letter-spacing:0;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+h5{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;    
+    color: #1f1f1f;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500 !important;
+    font-size: 13px !important; 
+    margin-top: 7px !important;
+    letter-spacing:0;
+    color: #1f1f1f;
+    text-transform: uppercase;    
+}
+
+/*.mark-title{
+    background-color: #1f1f1f;
+    padding: 3px 10px 0px 10px;
+    margin-left: -8px;
+    color: white;
+    border-radius: 8px;    
+}*/
+
+h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0;
+}
