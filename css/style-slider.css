@@ -25,30 +25,70 @@ section:nth-child(even) {
 
 .img-car{
     height: 100vh; 
-    padding: 3vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-right:16px;
 }    
 
 .didascalia{
    
     /*border: solid 1px #0f0f0f;
     border-radius: 20px;*/
-    margin-bottom: 2.5vh;
-    width: 300px;
+    margin-bottom: 5vh;
+    width: 400px;
 }
 
 .title{
-    margin: 0 400 0 200;
-    min-width: 800px;
+    margin: 0 0 0 200;
+    min-width: 65vw;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
+.arrow-scroll{
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    padding-bottom: 10px;
+}
+
+#prova{
+    width: 40px;
+    height: 40px;
+   
+    margin: auto;
+}
+
+i {
+  color: #0f0f0f;
+  margin: auto;
+    font-size: 25px;
+
+    
+}
+
+.arrow1 {
+    animation: slide1 1s ease-in-out infinite;
+    margin: 6 12 0 12;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
 h1{
     font-family: 'IBM Plex Sans Thai', sans-serif;
     font-weight: 900;
-    font-size: 80px;    
-    letter-spacing:0;
+    font-size: 110px;    
+    letter-spacing:8px;
     color: #1f1f1f;
     text-transform: uppercase;
     padding: 0;    
@@ -57,28 +97,30 @@ h1{
 
 h3{
     font-family: 'IBM Plex Sans Thai', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 24px;    
-    letter-spacing:0;
+    letter-spacing:0.5;
     color: #1f1f1f;
     text-transform: uppercase;
     padding: 0;
+    margin-bottom: 0px;
 }
 
 h5{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 18px;    
     color: #1f1f1f;
     text-transform: uppercase;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 h6{
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500 !important;
-    font-size: 13px !important; 
-    margin-top: 7px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px; 
+    margin-top: 7px;
     letter-spacing:0;
     color: #1f1f1f;
     text-transform: uppercase;    
@@ -92,10 +134,3 @@ h6{
     border-radius: 8px;    
 }*/
 
-h6{
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    padding: 0px;
-    margin: 0;
-}

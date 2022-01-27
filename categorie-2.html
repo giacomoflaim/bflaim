@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <title>WIP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/png" sizes="96x96" href="./asset/img/fav.png">
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="css/my_style.css" rel="stylesheet">
+    
+    <!-- JAVASCRIPT -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+<style>
+    
+ .type-2 {
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;  
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:rgba(255,255,255,0);
+}
+
+.my-border{  
+  width: 320px;
+    height: 320px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+    border: 1px solid transparent !important;
+
+}
+
+.my-border:hover{
+    border: 1px solid white !important;
+}
+
+h7{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 700;
+    font-size: 20px;    
+    letter-spacing:0.2;
+    text-align: center;    
+    position: absolute;
+    bottom: 0;
+    margin: 15px;
+    transition: opacity 1s;
+    background: rgba(0,0,0,0);
+    padding: 8px 16px;;
+}
+
+.card1{
+  background: url('../img/copertine/copertina-1.jpg') center center no-repeat;
+  background-size: 340px
+}
+.card1:hover{
+    background: url('../img/copertine/copertina-1.jpg') left center no-repeat;
+    background-size: 500px;
+    color:rgba(255,255,255,1);    
+}
+
+.type-2:hover h7{
+    background: rgba(0,0,0,0.9);
+    border-radius: 10px;
+}
+
+.card2{
+  background: url('../img/copertine/copertina-2.jpg') center center no-repeat;
+  background-size: 340px
+}
+.card2:hover{
+    background: url('../img/copertine/copertina-2.jpg') left center no-repeat;
+    background-size: 500px;
+    color:rgba(255,255,255,1);
+}
+
+.card3{
+  background: url('../img/copertine/copertina-3.jpg') center center no-repeat;
+  background-size: 340px
+}
+.card3:hover{
+    background: url('../img/copertine/copertina-3.jpg') left center no-repeat;
+    background-size: 500px;
+    color:rgba(255,255,255,1);
+}
+
+.card4{
+  background: url('../img/copertine/copertina-4.jpg') center center no-repeat;
+  background-size: 340px
+}
+.card4:hover{
+    background: url('../img/copertine/copertina-4.jpg') left center no-repeat;
+    background-size: 500px;
+    color:rgba(255,255,255,1);
+}
+ 
+    
+    
+</style>
+    
+    
+ 
+</head>
+    
+
+<body>
+
+<div class="container-fluid">
+    <div class="row h-100 ">
+        <div class="col-sm my-auto d-flex justify-content-center">
+            <div class="type-2 card1">
+                <div class="my-border">
+                  <h7>Album</h7>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm my-auto d-flex justify-content-center">
+            <div class="type-2 card2">
+                <div class="my-border">
+                  <h7>Opere su carta</h7>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm my-auto d-flex justify-content-center">
+            <div class="type-2 card3">
+                <div class="my-border">
+                  <h7>Opere su tela vetro</h7>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm my-auto d-flex justify-content-center">
+            <div class="type-2 card4">
+                <div class="my-border">
+                  <h7>Opere digitali</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>
