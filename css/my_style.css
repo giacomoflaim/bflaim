@@ -211,11 +211,11 @@ h7{
 }
 
 .card1{
-  background: url('../img/copertine/copertina-1.jpg') center center no-repeat;
+  background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-1.jpg") center center no-repeat;
   background-size: 340px
 }
 .card1:hover{
-    background: url('../img/copertine/copertina-1.jpg') left center no-repeat;
+    background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-1.jpg") center center no-repeat;
     background-size: 500px;
     color:rgba(255,255,255,1);    
 }
@@ -226,31 +226,31 @@ h7{
 }
 
 .card2{
-  background: url('../img/copertine/copertina-2.jpg') center center no-repeat;
+  background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-2.jpg") center center no-repeat;
   background-size: 340px
 }
 .card2:hover{
-    background: url('../img/copertine/copertina-2.jpg') left center no-repeat;
+    background:url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-2.jpg") center center no-repeat;
     background-size: 500px;
     color:rgba(255,255,255,1);
 }
 
 .card3{
-  background: url('../img/copertine/copertina-3.jpg') center center no-repeat;
+  background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina3.jpg") center center no-repeat;
   background-size: 340px
 }
 .card3:hover{
-    background: url('../img/copertine/copertina-3.jpg') left center no-repeat;
+    background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-3.jpg") center center no-repeat;
     background-size: 500px;
     color:rgba(255,255,255,1);
 }
 
 .card4{
-  background: url('../img/copertine/copertina-4.jpg') center center no-repeat;
+  background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-4.jpg") center center no-repeat;
   background-size: 340px
 }
 .card4:hover{
-    background: url('../img/copertine/copertina-4.jpg') left center no-repeat;
+    background: url("https://github.com/giacomoflaim/bflaim/blob/main/img/copertine/copertina-4.jpg") center center no-repeat;
     background-size: 500px;
     color:rgba(255,255,255,1);
 }
