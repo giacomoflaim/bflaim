@@ -1,8 +1,7 @@
 html,
 body {
   margin: 0;
-  font-family: sans-serif;
-    scroll-behavior: smooth;
+  position: relative;
   
 }
 
@@ -12,7 +11,38 @@ main {
 }
 
   
+.div-btn{
+    position: absolute;
+    bottom: 6vh;
+    left: 80px;
+}
 
+.my-btn{
+    display: block;
+    margin-top: 16px;
+    padding: 8 32 8 32;
+    border: solid 1px #202020;
+    border-radius: 40px;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.my-btn:hover{
+    background-color: #202020;
+    color: white;
+}
+
+.my-btn:active{
+    background-color: #202020;
+    color: white;
+}
 
 
 section {  
@@ -43,11 +73,12 @@ section:nth-child(even) {
 }
 
 .title{
-    margin: 0 0 0 200;
+    margin: 0 0 0 80;
     min-width: 65vw;
     display: flex;
     justify-content: left;
-    align-items: center;
+    margin-top: 30vh;
+   /* align-items: center;*/
 }
 
 .arrow-scroll{

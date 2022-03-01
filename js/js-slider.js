@@ -1,6 +1,21 @@
 
-$("#primo").click(function() {
-  var elmnt = document.getElementById("miodiv");
+$("#btn-primo").click(function() {
+  var elmnt = document.getElementById("target-primo");
+  elmnt.scrollIntoView({behavior: "smooth"});
+});
+
+$("#btn-secondo").click(function() {
+  var elmnt = document.getElementById("target-secondo");
+  elmnt.scrollIntoView({behavior: "smooth"});
+});
+
+$("#btn-terzo").click(function() {
+  var elmnt = document.getElementById("target-terzo");
+  elmnt.scrollIntoView({behavior: "smooth"});
+});
+
+$("#btn-quarto").click(function() {
+  var elmnt = document.getElementById("target-quarto");
   elmnt.scrollIntoView({behavior: "smooth"});
 });
 
@@ -13,7 +28,6 @@ scrollContainer.addEventListener("wheel", (evt) => {
 });
 
 
-
-    
-
-    
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#list-example'
+})
